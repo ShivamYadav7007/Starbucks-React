@@ -1,18 +1,18 @@
 import React from "react";
 import Extras from "./Extras/Extras";
 import Favorites from "./Favorites/Favorites";
-import Offers from "./Offers/Offers";
-import RewardPage from "./RewardPage/RewardPage";
+import Payment from "./Payment/Payment";
+import GetStarted from "./GetStarted/GetStarted.jsx";
 import StarCodes from "./StarCodes/StarCodes";
 import ExtraTerms from "./Terms/ExtraTerms";
 
 export default function Body() {
   return (
     <div>
-      <RewardPage />
+      <GetStarted />
       <Favorites />
       <Extras />
-      <Offers />
+      <Payment />
       <StarCodes />
       <ExtraTerms />
       <hr class="border-2 border-gray-600" />

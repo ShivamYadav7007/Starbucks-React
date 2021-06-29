@@ -40,6 +40,12 @@ module.exports = {
             backgroundSize: {
                 full: "100%",
             },
+            fontFamily: {
+                default: "'Helvetica Neue', Helvetica, Arial, 'sans-serif'",
+            },
+            spacing: {
+                "18": "4.5rem"
+            },
         },
     },
     variants: {

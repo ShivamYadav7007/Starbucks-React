@@ -10,7 +10,9 @@ export default function FavoriteImgTxt() {
         />
       </div>
       <dl class="p-5 mt-3 space-y-5 text-center md:place-self-center md:px-16 md:flex-1 md:text-left md:flex md:flex-col">
-        <dt class="text-xl font-medium smMd:text-2xl">Customize your drink</dt>
+        <dt class="text-xl font-semibold smMd:text-2xl">
+          Customize your drink
+        </dt>
         <dd class="text-sm md:text-base">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nobis
           ullam illo, nihil similique explicabo nam sequi cumque consectetur

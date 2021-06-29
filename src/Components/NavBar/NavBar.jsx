@@ -2,7 +2,7 @@ import React from "react";
 
 export default function NavBar() {
   return (
-    <div className="flex justify-between h-20 px-3 pt-3 bg-white full:sticky full:-top-0">
+    <div className="flex justify-between px-3 pt-3 bg-white h-18 full:sticky full:-top-0">
       {/* <div className="flex justify-between px-2 py-4 bg-white full:sticky full:-top-0"> */}
       <div className="flex flex-1">
         <svg
