@@ -15,7 +15,7 @@ export default function Body() {
       <Payment />
       <StarCodes />
       <ExtraTerms />
-      <hr class="border-2 border-gray-600" />
+      <hr class="border border-gray-600" />
     </div>
   );
 }

@@ -1,17 +1,16 @@
 import React from "react";
+import TermsTitle from "./TermsTitle";
 
 export default function ExtraTerms() {
   return (
-    <div class="p-5 text-sm bg-gray-100">
-      <p class="mt-3">
+    <div className="p-5 text-sm bg-gray-100">
+      <p className="mt-3">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit.
       </p>
-      <div class="md:flex">
-        <div class="my-8 space-y-4">
-          <h2 class="font-semibold tracking-wider text-gray-600 md:text-base">
-            EARNING STARS
-          </h2>
-          <p class="">
+      <div className="md:flex">
+        <div className="my-8 space-y-4">
+          <TermsTitle>Earning Stars</TermsTitle>
+          <p className="">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus a
             commodi natus, vero earum dolorem?
           </p>
@@ -29,15 +28,13 @@ export default function ExtraTerms() {
             molestiae tempore repudiandae soluta distinctio?
           </p>
         </div>
-        <div class="my-8 space-y-4 md:pl-4">
-          <h2 class="font-semibold tracking-wider text-gray-600 md:text-base">
-            TERMS OF USE
-          </h2>
+        <div className="my-8 space-y-4 md:pl-4">
+          <TermsTitle>Terms Of Use</TermsTitle>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus a
             commodi natus, vero earum dolorem?
           </p>
-          <p class="text-green-700 underline">
+          <p className="text-green-700 underline">
             {" "}
             <a href="#"> sit amet consectetur </a>
           </p>
@@ -50,11 +47,9 @@ export default function ExtraTerms() {
           </p>
         </div>
       </div>
-      <div class="md:flex">
-        <div class="my-8 space-y-4">
-          <h2 class="font-semibold tracking-wider text-gray-600 md:text-base">
-            BENEFITS
-          </h2>
+      <div className="md:flex">
+        <div className="my-8 space-y-4">
+          <TermsTitle>Benefits</TermsTitle>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas id
             inventore excepturi consequatur ratione qui repellendus modi impedit
@@ -63,10 +58,8 @@ export default function ExtraTerms() {
             molestiae tempore repudiandae soluta distinctio?
           </p>
         </div>
-        <div class="my-8 space-y-4 md:pl-4">
-          <h2 class="font-semibold tracking-wider text-gray-600 md:text-base">
-            REDEEMING REWARDS
-          </h2>
+        <div className="my-8 space-y-4 md:pl-4">
+          <TermsTitle>Redeeming Rewards</TermsTitle>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas id
             inventore excepturi consequatur ratione qui repellendus modi impedit
