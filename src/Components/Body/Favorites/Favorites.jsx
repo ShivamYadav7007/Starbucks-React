@@ -10,11 +10,11 @@ export default function Favorites() {
           <h2>Get your favorites for free</h2>
         </div>
         <div class="flex justify-around text-lg font-normal md:mx-40 md:text-2xl md:justify-evenly">
-          <TextRate text="25" isBorder={true} />
-          <TextRate text="50" isBorder={false} />
-          <TextRate text="150" isBorder={false} />
-          <TextRate text="200" isBorder={false} />
-          <TextRate text="400" isBorder={false} />
+          <TextRate text="25" className="border-b-4" />
+          <TextRate text="50" />
+          <TextRate text="150" />
+          <TextRate text="200" />
+          <TextRate text="400" />
         </div>
       </div>
       <FavoriteImgTxt />

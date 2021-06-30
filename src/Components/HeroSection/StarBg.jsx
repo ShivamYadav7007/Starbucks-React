@@ -18,28 +18,17 @@ export default function HeroSection() {
         </h3>
         <div class="mt-8 max-w-max mx-auto md:ml-0">
           <JoinButton
-            color="bg-green-700"
+            className="bg-green-700 lg:hidden md:hidden"
             linkUrl="https://google.com"
-            lg="hidden"
-            md="hidden"
           >
             Join in the app
           </JoinButton>
           <JoinButton
-            color="bg-green-700"
+            className="hidden bg-green-700 lg:block md:block"
             linkUrl="https://google.com"
-            lg="block"
-            md="block"
-            sm="hidden"
           >
             Join now
           </JoinButton>
-          {/* <p class="p-2 px-4 text-sm font-semibold text-white md:hidden">
-            Join in the app
-          </p>
-          <p class="hidden p-2 px-4 text-lg font-medium text-white md:block">
-            Join now
-          </p> */}
         </div>
 
         <p class="mt-3 underline md:hidden">

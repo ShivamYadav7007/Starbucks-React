@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <div>
       <Dropdown />
-      <hr class="mx-5 border-gray-600" />
+      <hr class="mx-5 mt-10 border-gray-600" />
       <Social />
     </div>
   );
