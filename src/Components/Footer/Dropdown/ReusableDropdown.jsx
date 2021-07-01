@@ -24,27 +24,47 @@ export default function ReusableDropdown(props) {
       </svg>
       <ul className="hidden space-y-5 text-gray-500 full:block full:text-base full:mt-8">
         <li>
-          <a className="hover:text-gray-800" href="https://google.com">
+          <a
+            className="hover:text-gray-800"
+            target="_blank"
+            href="https://google.com"
+          >
             {props.list.one}
           </a>
         </li>
         <li>
-          <a className="hover:text-gray-800" href="https://google.com">
+          <a
+            className="hover:text-gray-800"
+            target="_blank"
+            href="https://google.com"
+          >
             {props.list.two}
           </a>
         </li>
         <li>
-          <a href="https://google.com" className="hover:text-gray-800">
+          <a
+            href="https://google.com"
+            target="_blank"
+            className="hover:text-gray-800"
+          >
             {props.list.three}
           </a>
         </li>
         <li>
-          <a href="https://google.com" className="hover:text-gray-800">
+          <a
+            href="https://google.com"
+            target="_blank"
+            className="hover:text-gray-800"
+          >
             {props.list.four}
           </a>
         </li>
         <li>
-          <a href="https://google.com" className="hover:text-gray-800">
+          <a
+            href="https://google.com"
+            target="_blank"
+            className="hover:text-gray-800"
+          >
             {props.list.five}
           </a>
         </li>

@@ -3,7 +3,7 @@ import ReusableDropdown from "./ReusableDropdown";
 
 export default function Dropdown() {
   return (
-    <div class="md:text-lg md:space-y-14 full:flex full:justify-around full:pb-12">
+    <div className="md:text-lg md:space-y-14 full:flex full:justify-around full:pb-12">
       <ReusableDropdown
         title="About Us"
         list={{

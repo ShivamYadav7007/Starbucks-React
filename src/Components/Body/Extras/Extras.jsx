@@ -1,22 +1,25 @@
 import React from "react";
 import ReusableExtras from "./ReusableExtras";
+import ImgA from "../../../Images/1-fun-freebies.webp";
+import ImgB from "../../../Images/2-order-and-pay-ahead.webp";
+import ImgC from "../../../Images/3-get-to-free-faster.webp";
 
 export default function Extras() {
   return (
-    <div class="mt-6">
-      <dl class="p-6 text-center">
-        <dt class="pt-5 text-xl font-semibold md:text-4xl smMd:text-2xl">
+    <div className="mt-6">
+      <dl className="p-6 text-center">
+        <dt className="pt-5 text-xl font-semibold md:text-4xl smMd:text-2xl">
           Endless Extras
         </dt>
-        <dd class="mt-5 text-sm md:mx-14 md:text-base">
+        <dd className="mt-5 text-sm md:mx-14 md:text-base">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus earum
           animi deleniti mollitia sapiente sequi in veritatis eaque aut nisi?
           Sunt obcaecati ipsum eveniet omnis saepe? Dolor a iure sed!
         </dd>
       </dl>
-      <div class="space-y-4 md:flex md:pt-8 md:text-center">
+      <div className="space-y-4 md:flex md:pt-8 md:text-center">
         <ReusableExtras
-          src="https://www.starbucks.com/weblx/images/rewards/benefits/1-fun-freebies.jpg"
+          src={ImgA}
           title="Fun Freebies"
           url="https://google.com"
         >
@@ -25,7 +28,7 @@ export default function Extras() {
         </ReusableExtras>
 
         <ReusableExtras
-          src="https://www.starbucks.com/weblx/images/rewards/benefits/2-order-and-pay-ahead.jpg"
+          src={ImgB}
           title="Order and pay"
           url="https://google.com"
         >
@@ -34,7 +37,7 @@ export default function Extras() {
         </ReusableExtras>
 
         <ReusableExtras
-          src="https://www.starbucks.com/weblx/images/rewards/benefits/3-get-to-free-faster.jpg"
+          src={ImgC}
           title="Earn Stars and get rewards"
           url="https://google.com"
         >
