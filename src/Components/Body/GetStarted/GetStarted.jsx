@@ -1,5 +1,8 @@
 import React from "react";
-import Reusable from "./Reusable";
+import ReusableTitleImage from "./ReusableTitleImage";
+import GetStarted1 from "../../../Images/getting-started-1@2x.webp";
+import GetStarted2 from "../../../Images/getting-started-2@2x.webp";
+import GetStarted3 from "../../../Images/getting-started-3@2x.webp";
 
 export default function GetStarted() {
   return (
@@ -13,33 +16,33 @@ export default function GetStarted() {
         </dd>
       </dl>
       <div className="space-y-4 md:text-center md:space-y-0 md:flex md:pt-8">
-        <Reusable
-          src="https://www.starbucks.com/weblx/images/rewards/getting-started/getting-started-1@2x.jpg"
+        <ReusableTitleImage
+          src={GetStarted1}
           title1="Donwload the starbucks app"
           title2="Create an account"
           containsTitle2={true}
         >
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur
           laudantium, culpa eum inventore maiores fuga.
-        </Reusable>
+        </ReusableTitleImage>
 
-        <Reusable
-          src="https://www.starbucks.com/weblx/images/rewards/getting-started/getting-started-2@2x.jpg"
+        <ReusableTitleImage
+          src={GetStarted2}
           title1="Order and pay"
           containsTitle2={false}
         >
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur
           laudantium, culpa eum inventore maiores fuga.
-        </Reusable>
+        </ReusableTitleImage>
 
-        <Reusable
-          src="https://www.starbucks.com/weblx/images/rewards/getting-started/getting-started-3@2x.jpg"
+        <ReusableTitleImage
+          src={GetStarted3}
           title1="Earn Stars and get rewards"
           containsTitle2={false}
         >
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur
           laudantium, culpa eum inventore maiores fuga.
-        </Reusable>
+        </ReusableTitleImage>
       </div>
     </div>
   );

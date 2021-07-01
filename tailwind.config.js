@@ -13,8 +13,8 @@ module.exports = {
                 }
             },
             backgroundImage: theme => ({
-                'star-pattern-small': "url('https://www.starbucks.com/weblx/images/rewards/hero/hero-mobile_2021.jpg')",
-                'star-pattern-big': "url('https://www.starbucks.com/weblx/images/rewards/hero/xl-hero-desktop_2021.png')",
+                'star-pattern-small': "url('./Images/hero-mobile.webp')",
+                'star-pattern-big': "url('./Images/hero-desktop.webp')",
             }),
             minHeight: {
                 small: "78vh",
@@ -28,6 +28,9 @@ module.exports = {
             maxWidth: {
                 small: "50px",
                 medium: "110px"
+            },
+            padding: {
+                "eighty": "80%"
             },
             screens: {
                 smMd: "375px",
@@ -51,5 +54,5 @@ module.exports = {
     variants: {
         extend: {},
     },
-    plugins: [],
+    plugins: [require('@tailwindcss/aspect-ratio'), ],
 }

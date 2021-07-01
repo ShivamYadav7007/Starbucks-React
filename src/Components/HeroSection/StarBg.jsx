@@ -3,8 +3,10 @@ import JoinButton from "../sharedComponents/JoinButton";
 
 export default function HeroSection() {
   return (
-    <div class="bg-right-bottom bg-no-repeat bg-contain min-h-small md:h-screen md:pt-14 bg-primary-light md:flex bg-star-pattern-small md:bg-cover md:bg-half md:bg-star-pattern-big">
-      <div class="px-3 py-5 mx-4 text-center md:text-left place-self-center">
+    <div class="bg-right-bottom pb-eighty md:pb-0 bg-no-repeat bg-contain min-h-small md:h-screen md:pt-14 bg-primary-light md:flex bg-star-pattern-small md:bg-cover md:bg-half md:bg-star-pattern-big">
+      {/* <div class="aspect-w-3 bg-right-bottom aspect-h-5 bg-cover min-h-small md:h-screen md:pt-14 bg-primary-light md:flex bg-star-pattern-small md:bg-star-pattern-big"> */}
+
+      <div class="px-3 py-5 text-center md:text-left place-self-center">
         <div className="font-bold">
           <h1 class="pt-5 text-2xl smMd:text-3xl md:leading-8 md:text-3xl">
             FREE COFFEE

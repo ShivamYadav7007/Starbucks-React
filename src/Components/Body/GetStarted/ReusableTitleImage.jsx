@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Reusable(props) {
+export default function ReusableTitleImage(props) {
   const isHidden = props.containsTitle2 ? "hidden" : "block";
   return (
     <div className="flex p-2 md:flex md:flex-col md:space-y-4">
